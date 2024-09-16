@@ -1,0 +1,7 @@
+FROM rlva-docs
+
+COPY . .
+
+RUN git config --global user.name "GitHub CI/CD"
+
+RUN mkdocs gh-deploy --config-file mkdocs.yml --force

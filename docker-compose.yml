@@ -9,4 +9,4 @@ services:
     ports:
       - 2020:8000
     volumes:
-      - ./src/:/docs/
+      - ./:/docs/

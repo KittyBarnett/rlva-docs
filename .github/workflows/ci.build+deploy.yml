@@ -1,0 +1,24 @@
+name: Build and deploy documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Create the rlva-docs base container
+      run: |
+        docker build -t rlva-docs -f Dockerfile .
+      shell: bash
+
+    - name: Run the build container
+      run: |
+        docker build -f ./Dockerfile.build .
+      shell: bash
