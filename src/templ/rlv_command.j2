@@ -1,0 +1,39 @@
+# `@{{ command }}`
+
+**Description:**  
+{{ description }}
+
+**Syntax:**
+```rlv
+{{ syntax }}
+```
+
+**Parameters:**
+{% if parameters %}
+{% for param in parameters %}
+- `{{ param.name }}`: {{ param.description }}
+{% endfor %}
+{% else %}
+- none
+{% endif %}
+
+{% if notes %}
+**Notes:**  
+{{ notes }}
+{% endif %}
+
+{% if output %}
+**Example Output:**  
+```
+{{ output | trim }}
+```
+{% endif %}
+
+{% if related_commands %}
+**Related Commands:**  
+{% for related_command in related_commands %}
+{% set command = related_command.split('|')[0] %}
+{% set type = related_command.split('|')[1] %}
+- [`@{{ command }}`](../commands/{{ command }}_{{ type }}.md)
+{% endfor %}
+{% endif %}

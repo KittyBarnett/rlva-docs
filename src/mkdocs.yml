@@ -1,0 +1,15 @@
+site_name: RLVa Documentation
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - gen-files:
+      scripts:
+        - scripts/generate_rlv_commands.py

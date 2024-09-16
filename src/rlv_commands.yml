@@ -1,0 +1,36 @@
+- command: version
+  type: reply
+  description: Returns the RLV and RLVa version that the viewer is using on the specified channel.
+  syntax: "@version=<channel>"
+  output: |
+     RestrainedLife viewer v4.0.0 (RLVa 3.0.0)
+  notes: | 
+     This was the original command for retrieving the RLV version, but it's now deprecated due to restrictions on using Linden Lab-owned
+     trademarks by external parties. While it remains functional for compatibility, it's recommended that new scripts use @versionnew instead.
+  related_commands:
+    - versionnew|reply
+    - versionnum|reply
+
+- command: versionnew
+  type: reply
+  description: Returns the RLV and RLVa version on the specified channel, but in a way that complies with LL's trademark policies.
+  syntax: "@versionnew=<channel>"
+  output: |
+     RestrainedLove viewer v4.0.0 (RLVa 3.0.0)
+  notes: This is the preferred command moving forward. For more info, see the notes for @version.
+  related_commands:
+    - version|reply
+    - versionnum|reply
+
+- command: versionnum
+  type: reply
+  description: Returns the RLV version the viewer supports in a script-friendly format of <major><minor:02><patch:02><build:02>.
+  syntax: "@version[:impl]=<channel>"
+  output: |
+     4000000
+  parameters:
+    - name: impl
+      description: When 'impl' is passed as an option, the viewer will return the RLVa implementation version instead.
+  related_commands:
+    - version|reply
+    - versionnew|reply

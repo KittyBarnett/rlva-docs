@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mkdocs:
+    container_name: rlva-docs
+    build: .
+    command: serve -f ./mkdocs.yml --dev-addr=0.0.0.0:8000
+    restart: always
+    ports:
+      - 2020:8000
+    volumes:
+      - ./src/:/docs/
