@@ -1,0 +1,19 @@
+## {{ title }}
+
+**Preconditions:**
+{% for condition in preconditions %}
+- {{ condition }}
+{% endfor %}
+
+**Test Steps:**
+{% for step in test_steps %}
+{{ step.step_number }}. **Action:** {{ step.action }}<br/>{% if step.expected_result %}**Expected Result:** {{ step.expected_result }}{% endif %}
+{% endfor %}
+
+**Expected Results:**
+{{ expected_result }}
+
+**Notes:**
+{{ notes }}
+
+---

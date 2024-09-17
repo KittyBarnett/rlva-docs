@@ -1,0 +1,63 @@
+- id: RLVa-001
+  title: If RLV is disabled then logging in, performing everyday actions and closing the viewer should not trigger an assertion failure.
+  preconditions:
+    - The `RestrainedLove` debug setting was set to `FALSE` at the log-in screen.
+    - The user is logged into Second Life.
+  test_steps:
+    - step_number: 1
+      action: Perform some regular actions such as switching outfits, teleporting, editing an object, ...
+    - step_number: 2
+      action: Close the viewer
+  expected_result: |
+    The viewer should close as normal with no error messages displayed.
+  notes: |
+    If RLV code runs without the appropriate 'is enabled' checks, eventually an instance of RlvHandler will be created which will trigger
+    an assertion when the viewer is closed.
+    ![Assertion failure](../../assets/images/tests/rlva-0001.png)
+
+- id: RLVa-002
+  title: Verify that basic reply commands such as @version, @versionnew and @versionnum command return the expected result.
+  preconditions:
+    - The `RestrainedLove` debug setting was set to `TRUE` at the log-in screen.
+    - The user is logged into Second Life.
+  test_steps:
+    - step_number: 1
+      action: | 
+        Create an object with the following script:
+        ```lsl
+        {!assets/lsl/test-rlva-0002.lsl!}
+        ```
+    - step_number: 2
+      action: Click the test object
+  expected_result: |
+    ```
+    Object: TST: Starting RLVa integration test...
+    Object: TST: Sent @version command.
+    Object: TST: Received reply to @version: RestrainedLife viewer v4.0.0 (RLVa 3.0.0)
+    Object: ✔️ @version output format is correct.
+    Object: ✔️ @version test passed.
+    Object: TST: Sent @versionnew command.
+    Object: TST: Received reply to @versionnew: RestrainedLove viewer v4.0.0 (RLVa 3.0.0)
+    Object: ✔️ @versionnew output format is correct.
+    Object: ✔️ @versionnew test passed.
+    Object: TST: Sent @versionnum command.
+    Object: TST: Received reply to @versionnum: 4000000
+    Object: ✔️ @versionnum output format is correct.
+    Object: ✔️ @versionnum test passed.
+    Object: ✔️ All tests passed successfully.
+    ```
+
+- id: RLVa-003
+  title: Verify that the RLVa console is working correctly
+  preconditions:
+    - The `RestrainedLove` debug setting was set to `TRUE` at the log-in screen.
+    - The user is logged into Second Life.
+  test_steps:
+    - step_number: 1
+      action: Open the console using the **RLVa** menu → **Console...**
+      expected_result: The console floater should open.
+    - step_number: 2
+      action: Enter a reply command, such as `@version=0`, and hit enter
+  expected_result: |
+    The entered command should be visible in the console, as well as the RLV response.
+    ![RLVa Console](../../assets/images/console.png)

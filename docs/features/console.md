@@ -2,7 +2,7 @@
 
 The console is a handy tool built right into RLVa that allows you to easily execute RLV commands without needing to write any scripts.
 
-![RLVa Console](../../assets/images/console.png)
+![RLVa Console](../assets/images/console.png)
 
 ## How to Access the RLVa Console
 To open the console, go to the RLVa menu and select 'Console...'.

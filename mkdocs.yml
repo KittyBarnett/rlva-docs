@@ -7,9 +7,17 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.instant
+    - content.code.copy
 
 plugins:
   - search
   - gen-files:
       scripts:
         - scripts/generate_rlv_commands.py
+        - scripts/generate_test_scenarios.py
+
+markdown_extensions:
+    - markdown_include.include:
+        base_path: docs
