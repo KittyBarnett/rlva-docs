@@ -438,38 +438,38 @@
 #  related_commands:
 #    - To Do
 
-#- command: chatnormal
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: chatnormal
+  type: toggle
+  description: |
+      Allow/prevent chatting at normal volume.<br>
+      When prevented, the avatar will whisper even when the user tries to shout or chat normally. This does not change the message in any way, only its range.
+  syntax: "@chatnormal=<y/n>"
+  related_commands:
+    - sendchat|toggle
+    - chatshout|toggle
+    - chatwhisper|toggle
 
-#- command: chatshout
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: chatshout
+  type: toggle
+  description: |
+      Allow/prevent shouting.<br>
+      When prevented, the avatar will chat normally even when the user tries to shout. This does not change the message in any way, only its range.
+  syntax: "@chatshout=<y/n>"
+  related_commands:
+    - sendchat|toggle
+    - chatnormal|toggle
+    - chatwhisper|toggle
 
-#- command: chatwhisper
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: chatwhisper
+  type: toggle
+  description: |
+      Allow/prevent whispering.<br>
+      When prevented, the avatar will chat normally even when the user tries to whisper. This does not change the message in any way, only its range.
+  syntax: "@chatwhisper=<y/n>"
+  related_commands:
+    - sendchat|toggle
+    - chatnormal|toggle
+    - chatshout|toggle
 
 #- command: detach
 #  type: ToDo
@@ -581,16 +581,12 @@
 #  related_commands:
 #    - To Do
 
-#- command: edit
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: edit
+  type: toggle
+  description: |
+      Allow/prevent editing objects.<br>
+      When prevented from editing and opening objects, the Build & Edit window will refuse to open. 
+  syntax: "@edit=<y/n>"
 
 #- command: editattach
 #  type: ToDo
@@ -1188,16 +1184,16 @@
 #  related_commands:
 #    - To Do
 
-#- command: sendchat
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: sendchat
+  type: toggle
+  description: |
+      Allow/prevent sending chat messages.<br>
+      When prevented, everything typed on channel 0 will be discarded. However, emotes and messages beginning with a slash ('/') will go through, truncated to strings of 30 and 15 characters long respectively (likely to change later). Messages with special signs like ()"-*=_^ are prohibited, and will be discarded. When a period ('.') is present, the rest of the message is discarded.
+  syntax: "@sendchat=<y/n>"
+  related_commands:
+    - chatshout|toggle
+    - chatnormal|toggle
+    - chatwhisper|toggle
 
 #- command: sendgesture
 #  type: ToDo
@@ -1782,16 +1778,14 @@
 #  related_commands:
 #    - To Do
 
-#- command: showminimap
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: showminimap
+  type: toggle
+  description: |
+      Allow/prevent viewing the mini map.<br>
+      When prevented, the avatar is unable to view the mini map, and it closes if it is open when the restriction becomes active.
+  syntax: "@showminimap=<y/n>"
+  related_commands:
+    - showworldmap|toggle
 
 #- command: shownames
 #  type: ToDo
@@ -1848,16 +1842,14 @@
 #  related_commands:
 #    - To Do
 
-#- command: showworldmap
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: showworldmap
+  type: toggle
+  description: |
+      Allow/prevent viewing the world map.<br>
+      When prevented, the avatar is unable to view the world map, and it closes if it is open when the restriction becomes active.
+  syntax: "@showworldmap=<y/n>"
+  related_commands:
+    - showminimap|toggle
 
 #- command: sit
 #  type: ToDo
@@ -2191,38 +2183,35 @@
     - version|reply
     - versionnew|reply
 
-#- command: viewnote
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: viewnote
+  type: toggle
+  description: |
+      Allow/prevent reading notecards.<br>
+      Prevents from opening notecards but does not close the ones already open.
+  syntax: "@viewnote=<y/n>"
+  related_commands:
+    - viewnote|toggle
+    - viewscript|toggle
 
-#- command: viewscript
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: viewscript
+  type: toggle
+  description: |
+      Allow/prevent opening scripts.<br>
+      Prevents from opening scripts but does not close the ones already open.
+  syntax: "@viewscript=<y/n>"
+  related_commands:
+    - viewnote|toggle
+    - viewtexture|toggle
 
-#- command: viewtexture
-#  type: ToDo
-#  description: To Do
-#  syntax: "@To Do"
-#  output: |
-#     To Do
-#  notes: |
-#     To Do
-#  related_commands:
-#    - To Do
+- command: viewtexture
+  type: toggle
+  description: |
+      Allow/prevent opening textures.<br>
+      Prevents from opening textures (and snapshots) but does not close the ones already open.
+  syntax: "@viewtexture=<y/n>"
+  related_commands:
+    - viewnote|toggle
+    - viewscript|toggle
 
 #- command: viewtransparent
 #  type: ToDo
