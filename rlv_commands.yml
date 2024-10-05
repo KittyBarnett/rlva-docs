@@ -1,10 +1,1687 @@
+#- command: acceptpermission
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: accepttp
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: accepttprequest
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addattach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitall
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitallover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitallthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitallthisover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: addoutfitthisover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: adjustheight
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: allowidle
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: alwaysrun
+  type: toggle
+  description: |
+      Allow/prevent always running.<br>
+      When prevented, the user is unable to switch running mode on by pressing Ctrl-R. If you want to prevent the user from running at all, you must also use @temprun. This command is useful when you want to force the user to accelerate before running, rather than running all the time, for example during combats or sports games.
+  syntax: "@alwaysrun=<y/n>"
+  related_commands:
+    - fly|toggle
+    #- fly|force
+    - temprun|toggle
+
+#- command: attach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachall
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachallover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachalloverorreplace
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachallthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachallthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachallthis_except
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachallthisover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachallthisoverorreplace
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachoverorreplace
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachthis_except
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachthisover
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: attachthisoverorreplace
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: buy
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: camavdist
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: camdistmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: camdistmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: camtextures
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: camunlock
+  type: toggle
+  description: |
+      Allow/prevent unlocking the camera from the avatar.<br>
+      When active, this restriction prevents the user from unlocking the camera from the avatar, meaning that the user cannot use Alt to focus nor orbit the camera around the avatar. While the camera is locked, the sim forces it to stay in a line of sight from the avatar, meaning that this restriction is good to prevent from seeing through walls.
+  syntax: "@camunlock=<y/n>"
+  related_commands:
+    - setcam_unlock|toggle
+
+#- command: camzoommax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: camzoommin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: chatnormal
+  type: toggle
+  description: |
+      Allow/prevent chatting at normal volume.<br>
+      When prevented, the avatar will whisper even when the user tries to shout or chat normally. This does not change the message in any way, only its range.
+  syntax: "@chatnormal=<y/n>"
+  related_commands:
+    - sendchat|toggle
+    - chatshout|toggle
+    - chatwhisper|toggle
+
+- command: chatshout
+  type: toggle
+  description: |
+      Allow/prevent shouting.<br>
+      When prevented, the avatar will chat normally even when the user tries to shout. This does not change the message in any way, only its range.
+  syntax: "@chatshout=<y/n>"
+  related_commands:
+    - sendchat|toggle
+    - chatnormal|toggle
+    - chatwhisper|toggle
+
+- command: chatwhisper
+  type: toggle
+  description: |
+      Allow/prevent whispering.<br>
+      When prevented, the avatar will chat normally even when the user tries to whisper. This does not change the message in any way, only its range.
+  syntax: "@chatwhisper=<y/n>"
+  related_commands:
+    - sendchat|toggle
+    - chatnormal|toggle
+    - chatshout|toggle
+
+#- command: clear
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: clear
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachall
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachallthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachallthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachallthis_except
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachme
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: detachthis_except
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: edit
+  type: toggle
+  description: |
+      Allow/prevent editing objects.<br>
+      When prevented from editing and opening objects, the Build & Edit window will refuse to open.
+  syntax: "@edit=<y/n>"
+  related_commands:
+    - edit|exception
+    - editattach|toggle
+    - editworld|toggle
+
+- command: edit
+  type: exception
+  description: |
+      Remove/add exceptions to the edit prevention.<br>
+      When adding an exception, the user can edit or open this object in particular.
+  syntax: "@edit:<UUID>=<rem/add>"
+  related_commands:
+    - edit|toggle
+    - editattach|toggle
+    - editworld|toggle
+
+- command: editattach
+  type: toggle
+  description: |
+      Allow/prevent editing attachments.<br>
+      When prevented, the user cannot edit any object that is not rezzed in-world and that is not a HUD.
+  syntax: "@editattach=<y/n>"
+  related_commands:
+    - edit|toggle
+    - editworld|toggle
+
+#- command: editobj
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: editworld
+  type: toggle
+  description: |
+      Allow/prevent editing in-world objects.<br>
+      When prevented, the user cannot edit any object that is not an attachment.
+  syntax: "@editworld=<y/n>"
+  related_commands:
+    - edit|toggle
+    - editattach|toggle
+
+#- command: emote
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: fartouch
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: findfolder
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: findfolders
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: fly
+  type: toggle
+  description: |
+      Allow/prevent flying.<br>
+      When prevented, the user is unable to fly.
+  syntax: "@fly=<y/n>"
+  related_commands:
+    #- fly|force
+    - temprun|toggle
+    - alwaysrun|toggle
+
+# command: fly
+# type: force
+# description: |
+#     TO DO
+# syntax: "@fly=force"
+# notes: |
+#    To Do
+# related_commands:
+#   - fly|toggle
+
+#- command: getaddattachnames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getaddoutfitnames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getattach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getattachnames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_avdist
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_avdistmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_avdistmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_fov
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_fovmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_fovmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcam_textures
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getcommand
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: getgroup
+  type: reply
+  description: |
+      Get the name of the active group.<br>
+      Makes the viewer automatically answer the name of the currently active group, immediately on the chat channel number <channel_number> that the script can listen to. Always use a non-zero integer. Remember that regular viewers do not answer anything at all so remove the listener after a timeout. The answer will simply be "none" if no group is active at the time.
+  syntax: "@getgroup=<channel>"
+  output: |
+     GroupName
+  notes: |
+     Please note that there is no way to obtain the UUID of the group, only the name.
+  related_commands:
+    - setgroup|force
+    - setgroup|toggle
+
+#- command: getheightoffset
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getinv
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getinvworn
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getoutfit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getoutfitnames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getpath
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getpathnew
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getremattachnames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getremoutfitnames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getsitid
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getstatus
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: getstatusall
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: interact
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: jump
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: notify
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: pay
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: permissive
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: recvchat
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: recvchatfrom
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: recvemote
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: recvemotefrom
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: recvim
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: recvimfrom
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: redirchat
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: rediremote
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: remattach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: remattach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: remoutfit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: remoutfit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: rez
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sendchannel
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sendchannel_except
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: sendchat
+  type: toggle
+  description: |
+      Allow/prevent sending chat messages.<br>
+      When prevented, everything typed on channel 0 will be discarded. However, emotes and messages beginning with a slash ('/') will go through, truncated to strings of 30 and 15 characters long respectively (likely to change later). Messages with special signs like ()"-*=_^ are prohibited, and will be discarded. When a period ('.') is present, the rest of the message is discarded.
+  syntax: "@sendchat=<y/n>"
+  related_commands:
+    - chatshout|toggle
+    - chatnormal|toggle
+    - chatwhisper|toggle
+
+- command: sendgesture
+  type: toggle
+  description: |
+      Allow/prevent triggering a gesture.<br>
+      When prevented, the user cannot send any gesture (chat, animation, sound).
+  syntax: "@sendgesture=<y/n>"
+#  related_commands:
+#    - To Do
+
+- command: sendim
+  type: toggle
+  description: |
+      Allow/prevent sending instant messages.<br>
+      When prevented, everything typed in IM will be discarded and a custom message will be sent to the receiver instead notifying them about blocked IMs.
+  syntax: "@sendim=<y/n>"
+  related_commands:
+    - sendim|toggle_sec
+
+- command: sendim_sec
+  type: toggle_sec
+  description: |
+      Allow/prevent sending instant messages.<br>
+      When prevented, everything typed in IM will be discarded and a custom message will be sent to the receiver instead notifying them about blocked IMs.<br>
+      This particular command accepts exceptions issued from the same object only, opposed to the non-secure way that accepts exceptions from any object.
+  syntax: "@sendim_sec=<y/n>"
+  related_commands:
+    - sendim|toggle
+
+#- command: sendimto
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_avdist
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_avdistmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_avdistmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_eyeoffset
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_eyeoffset
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_eyeoffsetscale
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_eyeoffsetscale
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_focus
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_focusoffset
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_focusoffset
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_fov
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_fovmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_fovmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_mode
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_mouselook
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_origindistmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_origindistmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setcam_textures
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: setcam_unlock
+  type: toggle
+  description: |
+      Allow/prevent unlocking the camera from the avatar.<br>
+      This command works exactly like @camunlock described hereabove, it is a synonym.
+  syntax: "@setcam_unlock=<y/n>"
+  related_commands:
+    - camunlock|toggle
+
+#- command: setdebug
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setenv
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: setgroup
+  type: force
+  description: |
+     Force the agent to change the active group.<br>
+     Forces the agent to change the active group, to the specified one. Of course, they must already be a member of this group. If <group_name> is "none", then the agent will deactivate the current group and not show any group tag at all.
+  syntax: "@setgroup:<group_name>=force"
+  notes: |
+     RLVa 1.4+ supports <group_key> as well as <group_name>.
+  related_commands:
+    - getgroup|reply
+    - setgroup|toggle
+
+- command: setgroup
+  type: toggle
+  description: |
+     Allow/prevent activating a group.<br>
+     When prevented, the user is unable to change the active group.
+  syntax: "@setgroup=<y/n>"
+  related_commands:
+    - getgroup|force
+    - setgroup|toggle
+
+#- command: setoverlay
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setoverlay_alpha
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setoverlay_texture
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setoverlay_tint
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setoverlay_touch
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setoverlay_tween
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_color
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_distextend
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_distmax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_distmin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_mode
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_origin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_param
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_tween
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_valuemax
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: setsphere_valuemin
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: share
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sharedunwear
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sharedwear
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: showhovertext
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: showhovertextall
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: showhovertexthud
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: showhovertextworld
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: showinv
+  type: toggle
+  description: |
+      Allow/prevent using inventory.<br>
+      Forces the inventory windows to close and stay closed.
+  syntax: "@showinv=<y/n>"
+#  related_commands:
+#    - To Do
+
+#- command: showloc
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: showminimap
+  type: toggle
+  description: |
+      Allow/prevent viewing the mini map.<br>
+      When prevented, the avatar is unable to view the mini map, and it closes if it is open when the restriction becomes active.
+  syntax: "@showminimap=<y/n>"
+  related_commands:
+    - showworldmap|toggle
+
+#- command: shownames
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: shownametags
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: shownearby
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: showself
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: showselfhead
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: showworldmap
+  type: toggle
+  description: |
+      Allow/prevent viewing the world map.<br>
+      When prevented, the avatar is unable to view the world map, and it closes if it is open when the restriction becomes active.
+  syntax: "@showworldmap=<y/n>"
+  related_commands:
+    - showminimap|toggle
+
+#- command: sit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sitground
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: sittp
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: standtp
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: startim
+  type: toggle
+  description: |
+      Allow/prevent starting an IM session with anyone.<br>
+      When prevented, the user is unable to start an IM session with anyone. Sessions that are already open are not impacted though.
+  syntax: "@startim=<y/n>"
+#  related_commands:
+#    - To Do
+
+#- command: startimto
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: temprun
+  type: toggle
+  description: |
+      Allow/prevent running by double-tapping an arrow key.<br>
+      When prevented, the user is unable to run by double-tapping an arrow key. If you want to prevent the user from running at all, you must also use @alwaysrun.
+  syntax: "@temprun=<y/n>"
+  related_commands:
+    - fly|toggle
+    #- fly|force
+    - alwaysrun|toggle
+
+#- command: touchall
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchattach
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchattachother
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchattachself
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchfar
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchhud
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchme
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchthis
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: touchworld
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: tplm
+  type: toggle
+  description: |
+      Allow/prevent teleporting to a landmark.<br>
+      When prevented, the user cannot use a landmark, pick or any other preset location to teleport there.
+  syntax: "@tplm=<y/n>"
+  related_commands:
+    - tploc|toggle
+
+- command: tploc
+  type: toggle
+  description: |
+      Allow/prevent teleporting to a location.<br>
+      When prevented, the user cannot use teleport to a coordinate by using the map and such.
+  syntax: "@tploc=<y/n>"
+  related_commands:
+    - tplm|toggle
+
+#- command: tplocal
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: tplure
+  type: toggle
+  description: |
+      Allow/prevent teleporting by a friend.<br>
+      When prevented, the user automatically discards any teleport offer, and the avatar who initiated the offer is notified.
+  syntax: "@tplure=<y/n>"
+  related_commands:
+    - tplure_sec|toggle_sec
+
+- command: tplure_sec
+  type: toggle
+  description: |
+      Allow/prevent teleporting by a friend.<br>
+      When prevented, the user automatically discards any teleport offer, and the avatar who initiated the offer is notified.<br>
+      This particular command accepts exceptions issued from the same object only, opposed to the non-secure way that accepts exceptions from any object.
+  syntax: "@tplure_sec=<y/n>"
+  related_commands:
+    - tplure_sec|toggle_sec
+
+#- command: tplure
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+- command: tprequest
+  type: toggle
+  description: |
+     Allow/prevent receiving teleport offers from people.<br>
+     When prevented, the user cannot receive a "user wants to be teleported to your location" request from another user, and that other user receives a message if they try.
+  syntax: "@tprequest=<y/n>"
+  #related_commands:
+  #  - To Do
+
+#- command: tpto
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: unsharedunwear
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: unsharedwear
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: unsit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: unsit
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
 - command: version
   type: reply
   description: Returns the RLV and RLVa version that the viewer is using on the specified channel.
   syntax: "@version=<channel>"
   output: |
      RestrainedLife viewer v4.0.0 (RLVa 3.0.0)
-  notes: | 
+  notes: |
      This was the original command for retrieving the RLV version, but it's now deprecated due to restrictions on using Linden Lab-owned
      trademarks by external parties. While it remains functional for compatibility, it's recommended that new scripts use @versionnew instead.
   related_commands:
@@ -34,3 +1711,49 @@
   related_commands:
     - version|reply
     - versionnew|reply
+
+- command: viewnote
+  type: toggle
+  description: |
+      Allow/prevent reading notecards.<br>
+      Prevents from opening notecards but does not close the ones already open.
+  syntax: "@viewnote=<y/n>"
+  related_commands:
+    - viewnote|toggle
+    - viewscript|toggle
+
+- command: viewscript
+  type: toggle
+  description: |
+      Allow/prevent opening scripts.<br>
+      Prevents from opening scripts but does not close the ones already open.
+  syntax: "@viewscript=<y/n>"
+  related_commands:
+    - viewnote|toggle
+    - viewtexture|toggle
+
+- command: viewtexture
+  type: toggle
+  description: |
+      Allow/prevent opening textures.<br>
+      Prevents from opening textures (and snapshots) but does not close the ones already open.
+  syntax: "@viewtexture=<y/n>"
+  related_commands:
+    - viewnote|toggle
+    - viewscript|toggle
+
+#- command: viewtransparent
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
+
+#- command: viewwireframe
+#  type: ToDo
+#  description: |
+#      To Do
+#  syntax: "@To Do"
+#  related_commands:
+#    - To Do
